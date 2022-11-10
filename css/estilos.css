@@ -1,0 +1,136 @@
+
+@import url('https://fonts.gogleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat' , sans-serif;
+    overflow-x: hidden;
+
+}
+
+/*Menu*/
+#menu li > a {
+    font-size: 18px;
+    font-weight: bold;
+    color:#3f3f3f;
+
+}
+
+#menu form > button {
+font-size: 18px;
+font-weight: bold;
+
+}
+
+/*Slider de imagenes*/
+
+.carousel-inner {
+    max-height: 39rem;
+}
+
+
+/*Media Queries Pantalla Ancha*/
+
+@media (max-width: 1200px) {
+
+    #local {
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+    .wrapper {
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+}
+
+/*Media Queries Pantalla SM */
+
+@media (max-width:768px) {
+
+    #intro, #equipo{
+        width:90% !important;
+        margin:auto;
+    }
+
+    
+    #img-equipo{
+        max-height:20rem !important;
+        width:90%;
+    }
+    .wrapper-local {
+        width:90%;
+        margin:auto;
+        padding-top:50px;    
+    }
+    #local {
+        flex-wrap: wrap;
+    }
+    .mapa img {
+        width:100%;
+        height:auto;
+    }
+    #bg-contactos{
+        top: -120px;
+    }
+}
+
+/*Media Queries Pantalla Extra-SM*/
+
+@media (max-width: 576px) {
+    #servicios-fila-2 {
+        width:100% !important;
+    }
+    #servicios-fila-1 {
+        width:100% !important;
+    }
+
+    .icono-wrap{
+        flex-wrap:wrap !important;
+        justify-content: center !important;
+        text-align: center;
+    }
+}
+
+
+/* Contactos Background */
+#bg-contactos{
+    position:relative;
+    top: -130px;
+} 
+
+ #seccion-contacto{
+    background-color: #1b2a4e;
+    min-height:500px;
+    position:relative;
+}
+
+/* Contacto Formulario */
+
+#contenedor-formulario{
+    position:absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius:5px;
+    
+}
+
+#titulo-formulario {
+    color: #3f3f3f;
+}
+ /*Footer*/
+ footer {
+    background: #1b2a4e;
+    min-height: 100px;;
+}
+footer p{
+    color:#f3f3f3;
+    text-align:center;
+}
+#iconos  i {
+    font-size: 26px;
+    padding: 0 8px;
+    color:#f3f3f3;
+}
+
