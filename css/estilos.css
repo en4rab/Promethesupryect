@@ -143,6 +143,9 @@ font-family: 'Dancing Script', cursive;
 font-family: 'Josefin Sans', sans-serif;
 font-family: 'Marhey', cursive;
 
+
+
+
 }
 .text-primary.fs-6.fw-bold,
 .text-primary.fs-5.fw-bold
@@ -161,6 +164,31 @@ font-family: 'Marhey', cursive;
     font-family: 'Dancing Script', cursive;
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Marhey', cursive;
-    color: violet;
+    color: rgb(51, 17, 51);
 
 }
+
+.logo {
+
+    width: 5rem;
+    margin-top: 0rem;
+    border-radius: 2rem;
+    margin: 25px auto;
+  border: 1px solid #ccc;
+ 
+  box-shadow: 7px 7px 15px #592A08; 
+  padding: 0rem;
+    
+    
+
+   
+}
+.collapse.navbar-collapse {
+
+
+
+margin-top: 0rem;
+margin-left: 10rem;
+
+}
+
