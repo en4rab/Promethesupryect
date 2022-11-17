@@ -6,6 +6,12 @@
     <title>Prometheusproyect</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Dancing+Script:wght@700&family=Josefin+Sans:ital@1&family=Marhey:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Dancing+Script:wght@700&family=Josefin+Sans:ital@1&family=Lobster&family=Marhey:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
   </head>
   <body>
@@ -14,16 +20,16 @@
     <div class="container-fluid bg-primary d-flex justify-content-center">
     
     <!--color de texto/margenes/padding/tamaño de letra-->
-      <p class="text-light mb-0 p-2 fs-6 "><i class="bi bi-telephone-inbound-fill">(+54 11)5013-7910</i> /// <i class="bi bi-envelope-fill"></i>  prometheusproyect@gmail.com</p>
+      <p class="text-light mb-0 p-2 fs-6 "><i class="i bi bi-whatsapp">(+54 11)5013-7910</i> / <i class="bi bi-envelope-fill"></i>  Prometheus@proyecto.co</p>
   </div>
   </header>
     <!--Navbar collapsed/p-3 cambia ancho de menu-->
     <nav class="navbar navbar-expand-lg bg-light p-3 " id="menu">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <span class="text-primary fs-4 fw-bold">Prometheusproyect </span>
+          <span class="text-primary fs-1 fw-bold">Prometheusproyect </span>
           <br>
-          <span class="text-primary fs-5 fw-bold">Arquitectura gastronomica</span>
+          <span class="text-primary fs-4 fw-bold">Arquitectura gastronomica</span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -32,7 +38,7 @@
           
           <ul class="navbar-nav me-auto mb-2 mb-lg-0  ">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"></a>
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
             </li>
             <li class="nav-item ">
               <a class="nav-link" href="#intro">Equipo</a>
@@ -43,10 +49,22 @@
             <li class="nav-item ">
               <a class="nav-link" href="#equipo">Nosotros</a>
             </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Nuestros Proyectos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#burguer">Arcos - Burger</a></li>
+                <li><a class="dropdown-item" href="#pizzas">Arcos - Pizza</a></li>
+              </ul>
             <li class="nav-item">
               <a class="nav-link" href="#seccion-contacto">Contacto</a>
             </li>
-           </ul>
+        
+          
+          </ul>
+
             
         </div>
       </div>
@@ -56,17 +74,25 @@
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval='3000'>
-          <img src="./img/cocina_1.jpg" class="d-block w-100" alt="slide1">
+          <img src="./img/fot_dott_11.jpeg" class="d-block w-100" alt="slide1">
         </div>
 
         <div class="carousel-item"  data-bs-interval='3000'>
-          <img src="./img/cocina_2.jpg" class="d-block w-100" alt="slide2">
+          <img src="./img/fot_dott_13.jpeg" class="d-block w-100" alt="slide2">
         </div>
 
         <div class="carousel-item"  data-bs-interval='3000'>
-          <img src="./img/cocina_3.jpg" class="d-block w-100" alt="slide3">
+          <img src="./img/fot_dott_5.jpeg" class="d-block w-100" alt="slide3">
         </div>
-
+        <div class="carousel-item"  data-bs-interval='3000'>
+          <img src="./img/fot_dott_6.jpeg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='3000'>
+          <img src="./img/fot_dott_8.jpeg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='3000'>
+          <img src="./img/servicios_3.jpg" class="d-block w-100" alt="slide3">
+        </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -80,59 +106,311 @@
 
     <!--SECCION EQUIPO-->
     <section class="w-50 mx-auto text-center pt-5" id="intro">
-      <h1 class="p-3 fs-2 border-top border-3">Una agencia unica para todas tus necesidades de <span class="text-primary"> Asesorìa gastronomica</span></h1>
-      <p class="p-3 fs-4"><span class="text-primary">Prometheusproyect </span>Somos un equipo de profesionales con una larga trayectoria en Gastronomía, nuestra experiencia 
-        esta basada en mas de x años en Hoteles cinco estrellas, a lo largo de nuestras carreras hemos recorrido diferentes puestos 
-        de los departamentos del sector, adquiriendo conocimientos, aprendiendo metodologías y utilizando herramientas 
-        especificas para llevar adelante una administración efectiva y estandarizada.</p>
+      <h1 class="p-3 fs-2 border-top border-3">Una agencia unica para todas tus necesidades de <span class="text-primary"> Arquitectura gastronomica</span></h1>
+      <p class="p-3 fs-4"><span class="text-primary">Prometheusproyect </span>La dinámica empresarial caracterizada actualmente por una renovación constante, gran
+        competencia, alta velocidad de cambio y una tendencia marcada a la globalización exige a
+        las organizaciones una óptima labor, actualización permanente y mucha ayuda externa que
+        permita llevar un ritmo extremadamente acelerado, consecuente con el ritmo del mercado.
+        La Consultoría de empresas es un servicio que presta ese soporte de ayuda externa y
+        beneficia a muchas organizaciones alrededor del mundo. Su labor es considera muy útil y
+        necesaria. Cuando damos un desarrollo completo, de optimización para así garantizar la
+        satisfactoria en resultados a los clientes, donde sean los protagonistas de toda un trabajo que
+        consta desde el primer día de gestión.
+      </p>
     </section>
 
     <!--SECCION SERVICIOS-->
     <section class="container-fluid " id="servicios">
       <div class="row w-75 mx-auto my-5 servicio-fila ">
         <div class="col-lg-6 col-md-12 col-md-12 d-flex my-5 icono-wrap">
-          <img src="./img/insumos_1.jpg" alt="insumo_1" width="180" height="160">
+          <img src="./img/servicios_1.jpeg" alt="servicios_1" width="180" height="160">
           <div>
-            <h3 class="fs-5 mt-4 px-4 pb-1">CAPACITACION PERSONAL</h3>
-              <p class="px-4">Capacitamos a tu personal dependiendo de las necesidades de tu negocio. Realizamos capacitaciones en altos mandos 
-                o gerenciales, como así también servicio y operación. Todo el personal es capacitado según los estándares e identidad
-                 de la empresa, ya sean servicios formales o informales.
+            <h3 class="fs-5 mt-4 px-4 pb-1">FUNCIONES DE UN ASESOR GASTRONÓMICO</h3>
+              <p class="px-4">POR LO GENERAL, LOS PROPIETARIOS DE RESTAURANTES RECURREN A UN
+                ASESOR GASTRONOMICOS CUANDO NECESITAN AYUDAS.NO LO HAGAS QUE SEA ASI, YA QUE NUESTRO COMPROMISO ES QUE TU
+                NEGOCIO O EMPRENDIMIENTO DE MANO DE UN ASESOR QUE TE BRINDE
+                SEGURIDAD Y RENATBILIDAD.TE ASESORA EN LLEVAR CONTROLES Y GESTIONES SOBRE EL PERSONAL.
+                TE GUIA EN PLANILLAS DE INVENTARIOS, PEDIDOS, ELABORACION DE GUIAS O CARTA GASTRONOMICAS.
+                TE REALIZA ARMADO DE CARTA EN COSTOS.
+                CAPACITACION DE TODO EL PERSONAL.
+              </p>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-md-12 d-flex my-5 icono-wrap" >
+          <img src="./img/fotos_dott_26.jpg" alt="servicios_2" width="180" height="160">
+          <div>
+            <h3 class="fs-5 mt-4 px-4 pb-1">QUE ES UN ASESOR GASTRONOMICO</h3>
+              <p class="px-4">EL ASESOR GASTRONOMICO ES UN CHEF GRADUADO UNIVERSITARIO, CON AMPLIA
+                EXPERIENCIA EN HOSTELERIA. PARA IDENTIFICAR Y RESOLVER LOS PROBLEMAS Y
+                DEFICIENCIA DENTRO DE UN RESTAURANTE. UNA DE LAS PRINCIPALES CARACTERISTICAS, ADEMAS DE OFRECER BUENOS
+                CONSEJOS, ES QUE DISPONE DE CONOCIMIENTOS Y RECURSOS ADMINISTRATIVOS
+                PARA MEJORAR RÁPIDAMENTE DE LA GESTION DE CUALQUIER RESTAURANTE.
+                LA FINALIDAD DE CONTRATAR A UN ASESOR GASTRONÓMICO ES PORQUE
+                NECESITAS UN PROFESIONAL EXTERNO QUE TE PERMITA AHORRA TIEMPO Y
+                DINERO, PROBLEMATICAS CAUSADA POR PERSONAL NO CAPACITADO EN EL RUBRO
+                POR ENDE SE ENCARGA DE UNA BUENA SELECCIÓN. ASI AYUDA ANALIZAR PROBLEMATICAS DENTRO DEL NEGOCIO O PROYECTO.
+                
               </p>
             </div>
         </div>
         <div class="col-lg-6 col-md-12 col-md-12 d-flex my-5 icono-wrap">
-          <img src="./img/insumos_2.jpg" alt="insumo_2" width="180" height="160">
+          <img src="./img/servicios_5.jpeg" alt="servicios_4" width="180" height="160">
           <div>
-            <h3 class="fs-5 mt-4 px-4 pb-1">ASESORIA GASTRONOMICA</h3>
-              <p class="px-4">Asesoramos empresas gastronómicas de todos los rubros como por ejemplo: hoteles, panaderías, restaurantes, 
-                fast food, catering, bares, servicios de viandas, hospitales, entre otros. Nuestro enfoque es la mejora y control 
-                de costos, gestión de finanzas, resultados económicos, logística y procesos, administración, gerenciamiento y 
-                servicio.
+            <h3 class="fs-5 mt-4 px-4 pb-1">POR QUÉ PODRÍA NECESITAR UN CONTRATAR UN ASESOR GASTRONÓMICO</h3>
+              <p class="px-4">SI ESTAS ADMINISTRANDO UNO O VARIOS RESTAURANTE CON MUCHAS
+                FACTURACION Y MUCHOS EMPLEADOS PUEDES QUE NO DISPONGAS DE
+                TIEMPO NECESARIO PARA HACERLO TU MISMO.
+                PORQUE ES EL QUE SE ASESORA Y GESTIONA A NIVEL GASTRONÓMICO
+                INDICANDOTE CUANTO Y QUE EQUIPOS DEBES DE COMPRAR, DONDE TE
+                PERMITA HACER COMPRAS INESPERADAS O ERRONEAS.
+                PARA TRABAJAR EN CONJUNTOS PARA MEJORAS DE TU PROPIO NEGOCIO O
+                INVERSION, DONDE TE PERMITA UNA RENTABILIDAD ADECUADA PARA TU
+                PROPIO CRECIMIENTO.
+              </p>
+            </div>
+        </div>
+       <div class="col-lg-6 col-md-12 col-md-12 d-flex my-5 icono-wrap">
+          <img src="./img/fot_dott_9.jpg" alt="Servicios_5" width="180" height="160">
+          <div>
+            <h3 class="fs-5 mt-4 px-4 pb-1">INICIAR UN PROYECTO NUEVO </h3>
+              <p class="px-4">EN CASO DE QUE EL RESTAURANTE SEA NUEVOAUN NO HAYA ABIERTO, EL
+                TENER A UN LADO UN ASESOR GASTRONOMICONOS AHORRARA MUCHO
+                TIEMPO Y DINERO, Y PREOCUPACIONES ANTES DE LA APERTURAS.
+                ES DONDE EL ASESOR TE GUIA A TRA VES DE LO QUE DESEAS EN TU
+                PROYECTO POR AMPLIA EXPERIENCIA.
+                ES DEPENDER DEL CAPITAL QUE DESEES Y DEBAS TENER.
+                ASESORARTE EN TODA TU NECESIDAD DE PROYECTO.
               </p>
             </div>
         </div>
         <div class="col-lg-6 col-md-12 col-md-12 d-flex my-5 icono-wrap">
-          <img src="./img/insumos_3.jpg" alt="insumo_3" width="180" height="160">
+          <img src="./img/servicios_4.jpg" alt="servicios_6" width="180" height="160">
           <div>
-            <h3 class="fs-5 mt-4 px-4 pb-1">MANAGEMENT</h3>
-              <p class="px-4">Estas cansado de lidiar con el gerenciamiento de tu negocio gastronómico? Déjalo en nuestras manos. 
-                Nos encargamos de todo lo que se refiera a la operación y administración de negocios hoteleros y gastronómicos, 
-                trabajando con nuestro equipo, para que los propietarios no tengan que llevar el día a día de su negocio. 
-              
+            <h3 class="fs-5 mt-4 px-4 pb-1">REALIZAR UN ESTUDIO DE MERCADO </h3>
+              <p class="px-4">EN LA ACTUALIDAD HACER UN ESTUDIO DE MERCADO, IMPLICA EL TIEMPO
+                Y DEDICACION QUE ESTE ALREDEDOR DE LA LOCALIDAD QUE DESEES
+                DEPENDE EL MERCADO Y LOCALES CERCAS.
+                VERIFICAR QUE TANTO MOVIMIENTO Y ACCESO TIENES DE LA LOCALIDAD.
+                DEBEMOS OFRECERLE UN MENU ADAPTADO A SUS NECESIDADES Y GUSTOS.
+                Y EN UN PUNTO CLAVE PARA TENER ÉXITO Y DONDE NOS PUEDE AYUDAR EL
+                ASESOR GASTRONOMICO ES IMPLEMENTAR CORRECTAMENTE UNA OFERTA
+                GASTRONOMICA ADAPTADA A ESTE TIPO DE CLIENTE
+                DONDE ES BASADA EN TECNICAS MODERNAS.
               </p>
             </div>
         </div>
         <div class="col-lg-6 col-md-12 col-md-12 d-flex my-5 icono-wrap">
-          <img src="./img/insumos_4.jpg" alt="insumo_4" width="180" height="160">
+          <img src="./img/fotos_dott_27.jpg" alt="servicios_7" width="180" height="160">
           <div>
-            <h3 class="fs-5 mt-4 px-4 pb-1">APERTURAS</h3>
-              <p class="px-4">Te acompañamos según tus necesidades en la apertura de tu local, nuestro trabajo 
-                será junto con los propietarios y comprehende diferentes niveles de apoyo los cuales dependerán de cada proyecto.
+            <h3 class="fs-5 mt-4 px-4 pb-1">DISEÑO DE LA CARTA O GUIA GASTRONÓMICA </h3>
+              <p class="px-4">NOS ENCARGAMOS DE REALIZAR PROPUESTAS GASTRONOMICAS EN BASE
+                DE LA NECESIDAD, DE CLIENTE Y VERIFICANDO
+               </p>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-md-12 d-flex my-5 icono-wrap">
+          <img src="./img/fot_dott_11.jpeg" alt="Servicos_8" width="180" height="160">
+          <div>
+            <h3 class="fs-5 mt-4 px-4 pb-1">CONTROLES DE COSTOS Y RECETAS DE GRAMAJES</h3>
+              <p class="px-4">ELABORACION DE RECETAS Y GRAMAJES, PLANILLAS DE CONTROLES E
+                INVENTARIOS,ALMACENAMIENTOS Y ROTACION DE MERCADERIA,
+                RECCEPCCION DE MERCADERIA Y TEMPERATURAS,
+                PROCEDIMIENTOS DE PESAJES,
+                ELABORACION Y EMPLATADO,
+                CONTROLES DE CHECK LIST,
+                CONTROLES DE MERMAS.
+              </p>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-md-12 d-flex my-5 icono-wrap">
+          <img src="./img/fot_dott_25.jpg" alt="servicios_9" width="180" height="160">
+          <div>
+            <h3 class="fs-5 mt-4 px-4 pb-1">TIPOS DE PROPUESTAS GASTRONÓMICAS </h3>
+              <p class="px-4">MEDITERRANEA,GOURMET,JAPONESA,MEXICANA, AMERICANA,ITALIANA,PERUANA,CELIACA,VEGANOS O VEGETARIANOS.
               </p>
             </div>
         </div>
       </div>
     </section>
+    <br><br>
+
+    <!--Slider de Burguer-->
+   
+    <h1 class="burguer f2-4 text-center " id="burguer">  Arquitecura Local Burguer King Shopping Dott</h1>
+    
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" >
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval='2000'>
+          <img src="./img/fot_dott_11.jpeg" class="d-block w-100" alt="slide1">
+        </div>
+
+        <div class="carousel-item"  data-bs-interval='2000'>
+          <img src="./img/arcos-burguer/06c65aad-49b8-4b03-9f98-01a85f5fa130.jpg" class="d-block w-100" alt="slide2">
+        </div>
+
+        <div class="carousel-item"  data-bs-interval='2000'>
+          <img src="./img/arcos-burguer/06d1326a-3668-4071-b6c8-a4405c1cb51b.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='2000'>
+          <img src="./img/arcos-burguer/1024e4e0-a8cd-4719-95a2-b378ae7e02be.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='2000'>
+          <img src="./img/arcos-burguer/1698c937-a97c-4470-bf37-04ac8fbc5ff9.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='2000'>
+          <img src="./img/arcos-burguer/191152b1-9030-4905-aa5c-8bd783352cfa.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='2000'>
+          <img src="./img/arcos-burguer/1ef2d6c7-b937-4eed-84a3-d976beffa859.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='2000'>
+          <img src="./img/arcos-burguer/2124bff9-f7be-4ca7-b9c1-19aea4fff39f.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='2000'>
+          <img src="./img/arcos-burguer/26b249e0-03cb-4b21-9044-bf811e074b65.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='2000'>
+          <img src="./img/arcos-burguer/2b571a24-a011-4a6f-a5eb-a2f2864423c9.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='2000'>
+          <img src="./img/arcos-burguer/57924a23-d6a0-4cd4-8427-16539e89a3c6.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='2000'>
+          <img src="./img/arcos-burguer/57c03cc9-2ff4-4a2f-8230-f5a897fcc123.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='2000'>
+          <img src="./img/arcos-burguer/6af511cc-e25f-4f2f-bc5e-18374137c649.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='2000'>
+          <img src="./img/arcos-burguer/74549c61-a025-4491-aecc-1b47b937fae2.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='2000'>
+          <img src="./img/arcos-burguer/96cc1b3c-1971-43ef-98e0-82d934d9507d.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='2000'>
+          <img src="./img/arcos-burguer/9ec63f03-b277-4316-b12f-acd1f5037ab1.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='2000'>
+          <img src="./img/arcos-burguer/a43f66cc-e9c1-4fe0-ba98-6e5e141d5484.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='2000'>
+          <img src="./img/arcos-burguer/b08e7309-f4a2-41e1-80bc-3a3f827ca03a.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='2000'>
+          <img src="./img/arcos-burguer/dad6d6ae-79ba-4cd6-a107-c9f67819e140.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='2000'>
+          <img src="./img/arcos-burguer/de9ae2a5-fe40-41d6-b867-9f6abd2f81f2.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='2000'>
+          <img src="./img/arcos-burguer/ea63ced8-6281-4f6f-b8eb-94ceb6e13ee6.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='2000'>
+          <img src="./img/arcos-burguer/ea63ced8-6281-4f6f-b8eb-94ceb6e13ee6.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <br><br><br><br><br><br><br>
+    
+
+    <!--Slider de Pizzas-->
+    <h1 class="pizzas f2-4 text-center"id="pizzas" >Arquitecura Local de Pizzas Shopping Dott</h1>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" >
+      <div class="carousel-inner"  id="pizzas">
+        <div class="carousel-item active" data-bs-interval='3000'>
+          <img src="./img/arcos - pizza/06449199-d79d-4430-9c72-5c4c9a15fcfd.jpg" class="d-block w-100" alt="slide1">
+        </div>
+
+        <div class="carousel-item"  data-bs-interval='3000'>
+          <img src="./img/arcos - pizza/143d3363-18cf-4291-af99-3106fafc8cc1.jpg" class="d-block w-100" alt="slide2">
+        </div>
+
+        <div class="carousel-item"  data-bs-interval='3000'>
+          <img src="./img/arcos - pizza/235234dd-642c-4462-a81e-034b9e97ef7a.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='3000'>
+          <img src="./img/arcos - pizza/24cff019-7555-4da2-88b2-1b58974d7f49.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='3000'>
+          <img src="./img/arcos - pizza/2c43bfa7-a172-4a69-979d-8268afd84ebb.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='3000'>
+          <img src="./img/arcos - pizza/4272138c-5c18-419a-9fa9-5cb4f2e5a74b.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='3000'>
+          <img src="./img/arcos - pizza/46cce481-12a4-4888-87dc-9214e662e523.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='3000'>
+          <img src="./img/arcos - pizza/4a14a023-ffb8-4cd8-829e-9a9998511962.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='3000'>
+          <img src="./img/arcos - pizza/4a14a023-ffb8-4cd8-829e-9a9998511962.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='3000'>
+          <img src="./img/arcos - pizza/5d38e99d-fd49-4e75-b7ce-c038e3d59e03.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='3000'>
+          <img src="./img/arcos - pizza/804706af-a1aa-4e0a-8fe8-d54419ede6fa.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='3000'>
+          <img src="./img/arcos - pizza/8060b651-42a6-4993-b21b-8d2e428456bb.jpg"  class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='3000'>
+          <img src="./img/arcos - pizza/8c226ed7-1eff-4ba3-9b8d-2a4c214dc3f8.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='3000'>
+          <img src="./img/arcos - pizza/a9ca8318-fde0-4884-819d-bd3de1bd551f.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='3000'>
+          <img src="./img/arcos - pizza/a9ca8318-fde0-4884-819d-bd3de1bd551f.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='3000'>
+          <img src="./img/arcos - pizza/ab05d868-092d-434f-b4cc-57edafa6713e.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='3000'>
+          <img src="./img/arcos - pizza/ab5fab4b-c0c0-4aa4-8963-b29cb9f6e6c9.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='3000'>
+          <img src="./img/arcos - pizza/b708918e-6785-435e-a9f0-9854d5e81262.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='3000'>
+          <img src="./img/arcos - pizza/d131c8a2-c6df-4636-b9fe-bff45c225465.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='3000'>
+          <img src="./img/arcos - pizza/d3d14488-7e06-4731-ab14-cfd9136beb4d.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='3000'>
+          <img src="./img/arcos - pizza/e50375b1-06ab-4bc9-81c1-85cdd701b678.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='3000'>
+          <img src="./img/arcos - pizza/e930a616-cd37-48fc-8734-7c436bfccfad.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='3000'>
+          <img src="./img/arcos - pizza/e930a616-cd37-48fc-8734-7c436bfccfad.jpg" class="d-block w-100" alt="slide3">
+        </div>
+        <div class="carousel-item"  data-bs-interval='3000'>
+          <img src="./img/arcos - pizza/ef27f6ad-846e-437b-8dbb-f7ecccad899e.jpg" class="d-block w-100" alt="slide3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <br><br><br><br><br><br>
 
     <!--SECCION NOSOTROS-->
     <section>
@@ -143,22 +421,22 @@
           negocio y las estrategias mas convenientes para implementar. 
         </p>
       </div>
-      <div class="mt-5 text-center">
-        <img class="img-fluid" src="./img/nosotros_7.jpeg" alt="">
+     
+        <img class="img-fluid mt-100" src="./img/sobre_nos_3.jpg" alt="">
       </div>
     </section>
 
 
     <!--CONTACTOS-->
-    <section id="seccion-contacto" class="border-bottom border-secondary border-2">
+    <section id="seccion-contacto" class="border-bottom border-secondary border-40">
       <div id="bg-contactos">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1b2a4e" fill-opacity="1" d="M0,32L120,42.7C240,53,480,75,720,74.7C960,75,1200,53,1320,42.7L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
       </div>
 
       <!--FORMULARIO-->
-      <form   method="POST" data-netlify="true" action="#">     
+      <form   method="POST" data-netlify="true" action="https://formsubmit.co/pablofuldauer54@gmail.com">     
         <div class= "mb-3">           
-          <input type="email" class="form-control" id="email" name="email" placeholder="nombre@ejemplo.com">
+          <input type="email" class="form-control" id="email" name="mail" placeholder="nombre@ejemplo.com">
         </div>
 
       
@@ -172,11 +450,12 @@
         </div>
 
       <div class="mb-3">       
-        <textarea class="form-control" name="message" id="message" rows="4"></textarea>
+        <textarea class="form-control" name="message" id="message" rows="4" placeholder="Deje su comentario a la brevedad se lo responderemos. Muchas Gracias!"></textarea>
       </div>
 
       <div class="mb-3">
-        <button type="submit" class=" btn btn-primary w-100 fs-5">Enviar Mensaje</button>
+        <button type="submit" class=" btn btn-primary w-100 fs-5" >Enviar Mensaje</button>
+        
       </div>
   </form>
 

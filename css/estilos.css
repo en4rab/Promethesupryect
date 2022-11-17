@@ -50,6 +50,7 @@ font-weight: bold;
     #intro, #equipo{
         width:90% !important;
         margin:auto;
+        display: block;
     }
 
     
@@ -65,10 +66,8 @@ font-weight: bold;
     #local {
         flex-wrap: wrap;
     }
-    .mapa img {
-        width:100%;
-        height:auto;
-    }
+    
+    
     #bg-contactos{
         top: -120px;
     }
@@ -122,7 +121,8 @@ font-weight: bold;
  /*Footer*/
  footer {
     background: #1b2a4e;
-    min-height: 100px;;
+    min-height: 100px;
+  
 }
 footer p{
     color:#f3f3f3;
@@ -134,3 +134,33 @@ footer p{
     color:#f3f3f3;
 }
 
+.text-primary.fs-4.fw-bold,
+.text-primary.fs-3.fw-bold,
+.text-primary.fs-2.fw-bold,
+.text-primary.fs-1.fw-bold {
+    font-family: 'Bangers', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Marhey', cursive;
+
+}
+.text-primary.fs-6.fw-bold,
+.text-primary.fs-5.fw-bold
+ {
+    font-family: 'Bangers', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Marhey', cursive;
+}
+
+
+.pizzas.f2-4.text-center,
+.burguer.f2-4.text-center {
+    font-family: 'Bangers', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Marhey', cursive;
+    color: violet;
+
+}
