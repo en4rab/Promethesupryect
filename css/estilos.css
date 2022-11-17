@@ -32,15 +32,21 @@ font-weight: bold;
 
 @media (max-width: 1200px) {
 
+    #intro, #equipo {
+        width:90% !important;
+        margin:auto;
+    }
+  
     #local {
         flex-wrap: wrap;
-        padding-top: 30px;
-    }
-    .wrapper {
-        width: 90%;
-        margin: auto;
-        padding-top: 50px;
-    }
+        padding-top:30px;
+   }
+   .wrapper-local {
+    width:90%;
+    margin:auto;
+    padding-top:50px;    
+   }
+ 
 }
 
 /*Media Queries Pantalla SM */
@@ -50,7 +56,7 @@ font-weight: bold;
     #intro, #equipo{
         width:90% !important;
         margin:auto;
-        display: block;
+        
     }
 
     
@@ -69,7 +75,7 @@ font-weight: bold;
     
     
     #bg-contactos{
-        top: -120px;
+        top: -110px;
     }
 }
 
@@ -138,41 +144,46 @@ footer p{
 .text-primary.fs-3.fw-bold,
 .text-primary.fs-2.fw-bold,
 .text-primary.fs-1.fw-bold {
+    font-family: 'Architects Daughter', cursive;
     font-family: 'Bangers', cursive;
-font-family: 'Dancing Script', cursive;
-font-family: 'Josefin Sans', sans-serif;
-font-family: 'Marhey', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Marhey', cursive;
 
 
 
 
 }
 .text-primary.fs-6.fw-bold,
-.text-primary.fs-5.fw-bold
+.text-primary.fs-5.fw-bold,
+.navbar.navbar-light.bg-light.nav.justify-content-center
  {
+    font-family: 'Architects Daughter', cursive;
     font-family: 'Bangers', cursive;
-font-family: 'Dancing Script', cursive;
-font-family: 'Josefin Sans', sans-serif;
-font-family: 'Lobster', cursive;
-font-family: 'Marhey', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Marhey', cursive;
 }
 
 
 .pizzas.f2-4.text-center,
-.burguer.f2-4.text-center {
+.burguer.f2-4.text-center,
+.navbar.navbar-light.bg-light.nav.justify-content-center {
+    font-family: 'Architects Daughter', cursive;
     font-family: 'Bangers', cursive;
     font-family: 'Dancing Script', cursive;
     font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lobster', cursive;
     font-family: 'Marhey', cursive;
-    color: rgb(51, 17, 51);
+    color: darkblue;
 
 }
 
-/*.logo {
+.photo_servicios {
 
-    width: 5rem;
-    margin-top: 0rem;
-    border-radius: 2rem;
+    
     margin: 25px auto;
   border: 1px solid #ccc;
  
@@ -182,7 +193,7 @@ font-family: 'Marhey', cursive;
     
 
    
-}*/
+}
 .collapse.navbar-collapse {
 
 
@@ -190,5 +201,17 @@ font-family: 'Marhey', cursive;
 margin-top: 0rem;
 margin-left: 10rem;
 
+}
+
+.d-block.w-100 {
+    margin-top: 2rem;
+    max-width: 100%;
+    max-height: 70% ;
+    
+}
+.i.bi.bi-whatsapp,
+.bi.bi-envelope-fill {
+    text-align: center;
+    
 }
 

@@ -1,0 +1,39 @@
+/*body {
+    background:url(../img/backrground_4.jpg);
+}*/
+.navbar.navbar-light.bg-light.nav.justify-content-center
+ {
+    font-family: 'Bangers', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Marhey', cursive;
+ }
+ .navbar.navbar-light.bg-light.nav.justify-content-center {
+    font-family: 'Bangers', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Marhey', cursive;
+    color: darkblue;
+
+}
+
+.d-block.w-100
+ {
+    border-radius: 5rem;
+    padding: 1rem;
+    
+
+}
+.navbar-text.fs-2
+{
+    color: black;
+}
+.carousel-control-prev,
+.carousel-control-prev-icon,
+.visually-hidden,
+.carousel.slide,
+.carousel-control-next-icon {
+    color: darkred;
+}
+
